@@ -1,12 +1,13 @@
 body {
-    background-color: hsl(0, 0%, 8%); 
+    background-color:  #122C4F; 
     font-family: "Inter", sans-serif;
-    color:hsl(0, 0%, 100%)
+    color:#122C4F
 }
 
 .attribution { 
     font-size: 11px; 
-    text-align: center
+    text-align: center;
+    color: #FBF9E3
 }
     
 .attribution a {
@@ -18,10 +19,14 @@ h2 {
 }
 
 .uk_text {
-    color:hsl(75, 94%, 57%); 
+    color: #5B88B2; 
     font-weight: 600; 
     margin-top: 2px;
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 p {
@@ -36,7 +41,7 @@ p {
     margin: auto; 
     text-align: center; 
     align-items: center; 
-    background-color: hsl(0, 0%, 12%); 
+    background-color:#FBF9E3; 
     top: 50%;
     margin-top:3%; 
     height: 50%; 
@@ -51,22 +56,22 @@ button {
     height: 3.5em; 
     margin: auto;
     margin-bottom: 1em; 
-    background-color: hsl(0, 0%, 20%); 
+    background-color:#5B88B2 ; 
     border-color: hsl(0, 0%, 20%);
     box-shadow: none;
     border-style: none;
     border-radius:5px; 
-    color: hsl(0, 0%, 100%);
+    color: #FBF9E3;
     transition: 0.44s
 }
 
 button:hover{
-    background-color: hsl(75, 94%, 57%);
+    background-color: #F0D637;
     transition: 0.2s;
 }
 
 button:active{
-    background-color: hsl(75, 100%, 32%);
+    background-color: #b19f2b;
 }
 
 .button_div {
@@ -75,7 +80,7 @@ button:active{
     
 img {
     clip-path: circle(); 
-    width: 5em
+    width: 6em
 }
     
 .header_div {
